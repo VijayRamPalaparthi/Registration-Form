@@ -1,0 +1,85 @@
+/* Write your CSS code here */
+.bg-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-family: 'roboto';
+  font-size: 40px;
+  font-weight: bold;
+  color: #ea580c;
+}
+.card {
+  margin-top: 15px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.label {
+  font-family: 'roboto';
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #475569;
+}
+.input {
+  border: 1px solid #475569;
+  border-radius: 5px;
+  padding: 7px;
+  font-family: 'roboto';
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #9aa5b1;
+  outline: none;
+}
+.required {
+  border: 1px solid red;
+  background-color: #fef2f4;
+}
+.button {
+  border-radius: 7px;
+  border: none;
+  background-color: #ea580c;
+  height: 36px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'roboto';
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  align-self: center;
+}
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.suc {
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #475569;
+}
+.require {
+  font-family: 'roboto';
+  font-size: 10px;
+  font-weight: bold;
+  color: red;
+  margin-top: 2px;
+}
